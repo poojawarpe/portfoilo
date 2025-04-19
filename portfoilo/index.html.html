@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Portfolio">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8; /* Light background for a clean look */
+            color: #333; /* Dark text for readability */
+        }
+        header {
+            background-color: #007bff; /* Blue background */
+            color: white; /* White text for contrast */
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .photo img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 5px solid #ffffff; /* White border around photo */
+            box-shadow: 0px 0px 15px rgba(0, 123, 255, 0.2); /* Subtle blue shadow */
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        section {
+            margin: 40px 0;
+        }
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .skills ul, .projects ul, .experience ul, .education ul, .achievements ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li, .projects li, .experience li, .education li, .achievements li {
+            background: #e6f7ff; /* Light blue background for list items */
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 6px rgba(0, 123, 255, 0.1); /* Soft shadow effect */
+        }
+        .contact p {
+            font-size: 1.2em;
+        }
+        footer {
+            background-color: #343a40; /* Dark footer background */
+            color: white; /* White text in footer */
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #007bff; /* Blue color for social links */
+            margin: 0 10px;
+            font-size: 1.5em;
+        }
+        .social-links a:hover {
+            color: #0056b3; /* Darker blue on hover */
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        .header-text {
+            flex: 1;
+            text-align: left;
+        }
+        .header-photo {
+            margin-left: 20px;
+        }
+        .button {
+            background-color: #28a745; /* Green button background */
+            color: white; /* White text on the button */
+            padding: 12px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <div class="header-text">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Pooja Warpe| Web Developer</p>
+        </div>
+        <div class="header-photo">
+            <img src="C:\Users\HP\Pictures\Saved Pictures" alt="Your Name">
+        </div>
+    </div>
+</header>
+
+<div class="container">
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>
+
+Programming Languages: C, C++, Python, Java (basic)</li>
+            <li>Web Development: HTML, CSS, JavaScript</li>
+            <li>Database: MySQL</li>
+            <li>Tools & Technologies: Git, Visual Studio Code</li>
+            <li>Problem Solving and Logical Thinking</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Project 1</h3>
+                <p>Description of Project 1.</p>
+                <a href="link-to-project1" target="_blank" class="button">View Project</a>
+            </li>
+            <li>
+                <h3>Project 2</h3>
+                <p>Description of Project 2.</p>
+                <a href="link-to-project2" target="_blank" class="button">View Project</a>
+            </li>
+            <!-- Add more projects here -->
+        </ul>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>
+                <h3>Company Name - Job Title</h3>
+                <p>Duration: January 2020 - Present</p>
+                <p>Description of your role and responsibilities.</p>
+            </li>
+            <li>
+                <h3>Company Name - Job Title</h3>
+                <p>Duration: June 2018 - December 2019</p>
+                <p>Description of your role and responsibilities.</p>
+            </li>
+            <!-- Add more experience entries here -->
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+        <h2>Educational Qualifications</h2>
+        <ul>
+            <li>
+                <h3>Diploma in computer engineering</h3>
+                <p>Institution: Cusrow Wadia Institute of Technology</p>
+                <p>completion date: 2027</p>
+                <p>Details: A comprehensive course covering technologies such as HTML, CSS, JavaScript, wd, Node.js, etc.</p>
+            </li>
+            <li>
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>Institution: ABC University</p>
+                <p>Graduation Date: 2021</p>
+                <p>Details: Specialized in software development and algorithms.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Completed a full-stack web development bootcamp with certification.</li>
+            <li>Built a real-time chat application using Node.js and WebSockets.</li>
+            <li>Contributed to open-source projects on GitHub.</li>
+            <li>Won a web development hackathon organized by ABC Tech.</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Information</h2>
+        <p>Email: your.email@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/your-username" target="_blank">GitHub Profile</a></p>
+    </section>
+
+    <!-- Social Links Section -->
+    <section class="social-links">
+        <h2>Follow Me</h2>
+        <a href="https://twitter.com/your-twitter" target="_blank">Twitter</a>
+        <a href="https://github.com/your-username" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
